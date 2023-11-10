@@ -22,6 +22,7 @@ function postsFetch(req, res) {
                 html.push("</li>");
             }
             html.push("<ul>");
+            html.push("<a href='/'>Torna indietro</a>");
             res.send(html.join(""));
         },
         json: () => {
