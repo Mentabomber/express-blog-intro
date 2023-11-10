@@ -1,6 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const home = require("./controllers/home");
+const posts = require("./controllers/content")
 
 dotenv.config();
 
@@ -13,6 +14,7 @@ app.use(express.static("public"));
 
 
 app.get("/", home.index);
+app.get("/posts", posts.postsFetch);
 
 
 app.listen(port, () => {

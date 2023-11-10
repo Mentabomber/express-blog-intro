@@ -2,31 +2,31 @@
     {
         "title" : "il mio viaggio a Budapest",
         "content" : "Sono stato a Budapest con Marco per festeggiare la sua Laurea in Ingegneria Nucleare",
-        "img" : "budapest.png",
+        "img" : "budapest.webp",
         "tags" : ["laurea", "budapest", "viaggi"]
     },
     {
         "title": "Esplorando le bellezze di Kyoto",
         "content": "Ho trascorso una settimana a Kyoto, immergendomi nella cultura giapponese antica. I templi, i giardini zen e i tradizionali ristoranti sono stati esperienze indimenticabili.",
-        "img": "kyoto.png",
+        "img": "kyoto.jpg",
         "tags": ["viaggi", "cultura", "Kyoto"]
     },    
     {
         "title": "Avventura nella giungla amazzonica",
         "content": "Un viaggio emozionante nella giungla amazzonica, esplorando la flora e la fauna uniche. Incontri con tribù locali e notti sotto le stelle hanno reso l'esperienza magica.",
-        "img": "amazzonia.png",
+        "img": "amazzonia.webp",
         "tags": ["avventura", "natura", "viaggi"]
     },    
     {
         "title": "Weekend sulla Costa Amalfitana",
         "content": "Un breve weekend sulla suggestiva Costiera Amalfitana. Panorami mozzafiato, cibo delizioso e spiagge pittoresche hanno reso il viaggio indimenticabile.",
-        "img": "amalfi.png",
+        "img": "amalfi.webp",
         "tags": ["viaggi", "weekend", "Amalfitana"]
     },    
     {
         "title": "Incontri straordinari a Marrakech",
         "content": "Marrakech mi ha affascinato con i suoi colori vivaci, i mercati affollati e l'ospitalità incredibile. Un viaggio che ha stimolato tutti i sensi.",
-        "img": "marrakech.png",
+        "img": "marrakech.webp",
         "tags": ["viaggi", "cultura", "Marrakech"]
     }
 ]
