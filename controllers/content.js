@@ -1,11 +1,15 @@
 const postsList = require("../db/posts.json");
-
+const fs = require("fs");
+const path = require("path");
 
 
 function postsFetch(req, res) {
     res.format({
         html: () => {
-            const html = [`
+            let headerContent = fs.readFileSync(path.resolve(__dirname, ".././html/header.html"), "utf-8");
+            let htmlContent = fs.readFileSync(path.resolve(__dirname, ".././html/index.html"), "utf-8");
+            htmlContent = htmlContent.replace("@header", headerContent);
+            const html = [`${headerContent}
                 <h1>I Miei Posts</h1>
             `];
             html.push("<ul>");

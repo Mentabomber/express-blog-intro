@@ -1,5 +1,3 @@
-
-const express = require("express");
 const fs = require("fs");
 const path = require("path");
 
@@ -11,10 +9,12 @@ function index(req, res) {
       res.type("text").send("Hello World!");
     },
     html: () => {
-      let htmlContent = fs.readFileSync(path.resolve(__dirname, "../index.html"), "utf-8");
-      let headContent = fs.readFileSync(path.resolve(__dirname, "../head.html"), "utf-8");
+      let htmlContent = fs.readFileSync(path.resolve(__dirname, ".././html/index.html"), "utf-8");
+      let headContent = fs.readFileSync(path.resolve(__dirname, ".././html/head.html"), "utf-8");
+      let headerContent = fs.readFileSync(path.resolve(__dirname, ".././html/header.html"), "utf-8");
       
       htmlContent = htmlContent.replace("@head", headContent);
+      htmlContent = htmlContent.replace("@header", headerContent);
 
       res.type("html").send(htmlContent);
     },
