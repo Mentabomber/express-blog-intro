@@ -17,7 +17,7 @@ function postsFetch(req, res) {
                 html.push(`<li>
                     <h3>${post.title}</h3><br><br>
                     <p>${post.content}</p><br>
-                    <img src="/imgs/posts/${post.img}" alt="" style="width: 200px">
+                    <img src="assets/imgs/posts/${post.img}" alt="" style="width: 200px">
                     <h3>Tags:</h3>`
                 );
                 for(const tag of post.tags){

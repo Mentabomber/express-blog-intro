@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <link rel="stylesheet" href="assets/css/posts.css">
+</head>
+<body>
+    <div id="cards-container">
+        <div class="card">
+            <ul>
+                <li>
+                    <h3>${post.title}</h3><br><br>
+                    <p>${post.content}</p><br>
+                    <img src="assets/imgs/posts/${post.img}" alt="" style="width: 200px">
+                    <h3>Tags:</h3>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    const postsList = require("../db/posts.json");
+    function populateCard (){
+        for()
+    }
+</script>
